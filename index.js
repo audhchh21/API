@@ -9,6 +9,7 @@ var con = mysql.createConnection({
     password: "yourpassword"
 });
 
+// Route หลัก
 app.get('/', function(req, res) {
     res.send('Hello World!')
 })
